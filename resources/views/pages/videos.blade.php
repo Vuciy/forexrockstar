@@ -44,7 +44,7 @@
         <div class="row">
             <div class="section-header text-center">
                 <h2>Explore Videos</h2>
-                <p class="lead">See videos from our youtube <a href="">channel<a>.</p>
+                <p class="lead">See videos from our youtube <a href="https://www.youtube.com/channel/UCpLKayC69YQ054xUP7wVSCg">channel<a>.</p>
             </div>
         </div>
         <!-- /row -->
