@@ -39,7 +39,6 @@
 
     <!-- container -->
     <div class="container">
-
         <!-- row -->
         <div class="row">
             <div class="section-header text-center">
@@ -54,6 +53,13 @@
 
             <!-- row -->
             <div class="row">
+
+            <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="video" >
+                            <video controls><source src="./video/forex-rockstar-regards..mp4" type="video/mp4"></video>
+                            <br/><a class="course-title" >Forex rockstar regards.</a>
+                    </div>
+                </div>
 
                 <!-- single course -->
                 <div class="col-md-6 col-sm-6 col-xs-12">
