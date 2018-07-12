@@ -16,6 +16,8 @@ class VideosController extends Controller
      */
     public function index()
     {
+
+
         if (Auth()->guest()) {
             return view('pages.videos');
         }else   {

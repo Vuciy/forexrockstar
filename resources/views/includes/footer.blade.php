@@ -41,12 +41,9 @@
                         <!-- social -->
                         <div class="col-md-4 col-md-push-8">
                             <ul class="footer-social">
-                                <li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a></li>
-                                <li><a href="#" class="instagram"><i class="fa fa-instagram"></i></a></li>
-                                <li><a href="#" class="youtube"><i class="fa fa-youtube"></i></a></li>
-                                <li><a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="https://web.facebook.com/forexrockstarTC/?_rdc=1&_rdr" class="facebook"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="https://www.instagram.com/forexrockstar01/?hl=en" class="instagram"><i class="fa fa-instagram"></i></a></li>
+                                <li><a href="https://www.youtube.com/results?search_query=forex+rockstar" class="youtube"><i class="fa fa-youtube"></i></a></li>
                             </ul>
                         </div>
                         <!-- /social -->
