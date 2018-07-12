@@ -1494,3 +1494,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 	float: none;
 	margin: auto;
 }
+
+video {
+	width: 100%;
+}

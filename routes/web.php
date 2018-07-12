@@ -16,7 +16,7 @@
 Auth::routes();
 Route::get('/pagenotfound', ['as' => 'notfound', 'uses' => 'HomeController@pageNotFound']);
 Route::get('/home', 'HomeController@index')->name('home');
-Route::get('/videos', 'VideosController@index')->name('videos');
+Route::get('/videos-section', 'VideosController@index')->name('videos');
 Route::post('videos-upload', 'VideosController@store');
 Route::get('/about', 'AboutController@index')->name('about');
 Route::any('testimonial-get', 'TestimonialController@store');

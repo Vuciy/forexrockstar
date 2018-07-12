@@ -24,7 +24,7 @@ class VideosController extends Controller
         $user = new User;
         $user = $user->where('id', Auth::user()->id)->get();
 
-        $videos = new Video;
+        $videos = true;
         if($user[0]['premium'] > 0) {
             return view('pages.videos')->with('videos', $videos);
         }

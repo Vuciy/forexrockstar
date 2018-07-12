@@ -53,13 +53,6 @@
 
             <!-- row -->
             <div class="row">
-
-            <!--<div class="col-md-6 col-sm-6 col-xs-12">
-                    <div class="video" >
-                            <video controls><source src="./video/forex-rockstar-regards..mp4" type="video/mp4"></video>
-                            <br/><a class="course-title" >Forex rockstar regards.</a>
-                    </div>
-                </div>-->
                 <!-- single course -->
                 <div class="col-md-6 col-sm-6 col-xs-12">
                     <div class="video" >
@@ -151,62 +144,94 @@
 
     </div>
     <!-- container -->
-
-    @if(!empty($videos))
-            <!-- container -->
-    <div class="container">
-
-            <!-- row -->
-            <div class="row">
-                <!-- Courses -->
-    <div id="courses" class="section">
-    
-        <!-- container -->
-        <div class="container">
-    
-            <!-- row -->
-            <div class="row">
-                <div class="section-header text-center">
-                    <h2>Premium Videos</h2>
-                    <p class="lead">you are a premium member</p>
-                </div>
-            </div>
-            <!-- /row -->
-    
-            <!-- courses -->
-            <div id="courses-wrapper">
-    
-                <!-- row -->
-                <div class="row">
-                    @foreach($videos as $video)
-                    <div class="col-md-4 col-sm-6 col-xs-6">
-                        <div class="video">
-                            <a class="about-video" href="#">
-                                <img src="storage/{{$video->video-name}}" alt="">
-                                <i class="play-icon fa fa-play"></i>
-                            </a>
-                            <span class="course-title">{{$video->title}}</span>
-                        </div>
-                    </div>
-                    @endforeach
-    
-        </div>
-        <!-- container -->
-    @endif
-    
-
 </div>
 <!-- /Courses -->
 
-        </div>
+</div>
         <!-- /row -->
-
-    </div>
+</div>
     <!-- /container -->
 
 </div>
 <!-- /Videos -->
 
+@if(isset($videos))
+    <div class="container">
+        <div class="row">
+            <div class="section-header text-center">
+                <h2>Premium Videos</h2>
+                <p class="lead">you are a premium member</p>
+            </div>
+        </div>
+    <!-- /row -->
+
+        <!-- courses -->
+        <div id="courses-wrapper">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="video" >
+                                <video controls>
+                                    <source src="{{ URL::asset('videos/forex-rockstar-regards..mp4') }}" type="video/mp4">
+                                </video>
+                                
+                                <br/><a class="course-title" >Forex rockstar regards.</a>
+                        </div>
+                </div>
+
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="video" >
+                                <video controls>
+                                    <source src="{{ URL::asset('videos/candlesticks-and-entry..mp4') }}" type="video/mp4">
+                                </video>
+                                
+                                <br/><a class="course-title" >Candlesticks and entry.</a>
+                        </div>
+                </div>
+
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="video" >
+                                <video controls>
+                                    <source src="{{ URL::asset('videos/timing-is-everything.mp4') }}" type="video/mp4">
+                                </video>
+                                
+                                <br/><a class="course-title" >Timing is everything.</a>
+                        </div>
+                </div>
+
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="video" >
+                                <video controls>
+                                    <source src="{{ URL::asset('videos/the-time-factor..mp4') }}" type="video/mp4">
+                                </video>
+                                
+                                <br/><a class="course-title" >The time factor.</a>
+                        </div>
+                </div>
+
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="video" >
+                                <video controls>
+                                    <source src="{{ URL::asset('videos/pattern-of-the-market..mp4') }}" type="video/mp4">
+                                </video>
+                                
+                                <br/><a class="course-title" >Pattern-of-the-market.</a>
+                        </div>
+                </div>
+
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="video" >
+                                <video controls>
+                                    <source src="{{ URL::asset('videos/daily-lows-and-highs-factors-to-consider..mp4') }}" type="video/mp4">
+                                </video>
+                                
+                                <br/><a class="course-title" >Daily lows and highs factors to consider.</a>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <!-- courses -->
+    </div><br/><hr/><br/>
+@endif
 <!-- Call To Action -->
 <div id="cta" class="section">
 
