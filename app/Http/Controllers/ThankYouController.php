@@ -18,6 +18,10 @@ class ThankYouController extends Controller
             return view('payment-pages/thank-you');
         }
 
+        if($user_data[0]['cancel_uniq_key'] == $request->id) {
+            return view('payment-pages/cancelled-transction');
+        }
+
         return redirect(route(('landing'))); 
     }
 }

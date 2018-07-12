@@ -38,7 +38,7 @@ class VideosController extends Controller
             'merchant_id' => $merchant_id,
             'merchant_key' => $merchant_key,
             'return_url' => 'http://forexrockstar1.co.za/thank-you/'. $user[0]['success_uniq_key'],
-            'cancel_url' => 'http://forexrockstar1.co.za/cancelled-transction/'.$user[0]['success_uniq_key'],
+            'cancel_url' => 'http://forexrockstar1.co.za/cancelled-transction/'.$user[0]['cancel_uniq_key'],
             'notify_url' => 'http://forexrockstar1.co.za/videos/',
             // Buyer details
             'name_first' => $user[0]['name'],
