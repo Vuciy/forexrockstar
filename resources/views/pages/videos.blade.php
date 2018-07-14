@@ -227,6 +227,16 @@
                                 <br/><a class="course-title" >Daily lows and highs factors to consider.</a>
                         </div>
                 </div>
+
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="video" >
+                            <video controls>
+                                <source src="{{ URL::asset('videos/market-is-always-attracted-to-price.mp4') }}" type="video/mp4">
+                            </video>
+                            
+                            <br/><a class="course-title" >Market is always attracted to price.</a>
+                    </div>
+                </div>
             </div>
         </div>
         <!-- courses -->
