@@ -236,6 +236,14 @@
                             
                             <br/><a class="course-title" >Market is always attracted to price.</a>
                     </div>
+
+                    <div class="video" >
+                        <video controls>
+                            <source src="{{ URL::asset('videos/validating-the-stop-loss-hunt..mp4') }}" type="video/mp4">
+                        </video>
+                        
+                        <br/><a class="course-title" >Validating the stop loss hunt.</a>
+                    </div>
                 </div>
             </div>
         </div>
