@@ -10,5 +10,9 @@
 	$('.navbar-toggle').on('click',function(){
 		$('#header').toggleClass('nav-collapse')
 	});
+
+	$('.account-anchor').on('click', function(e) {
+		e.preventDefault();
+	});
 	
 })(jQuery);

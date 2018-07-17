@@ -27,14 +27,14 @@
                 <li><a href="{{ route('about') }}">About</a></li>
                 <li><a href="{{ route('videos') }}">Videos</a></li>
                 @guest
-                    <li class="account-container"><a href="">Account <span class="caret"></a>
+                    <li class="account-container"><a class="account-anchor">Account <span class="caret"></a>
                         <ul class="account">
                             <li><a href="{{ route('login') }}">{{ __('Login') }}</a></li>
                             <li><a href="{{ route('register') }}">{{ __('Register') }}</a></li>
                         </ul>
                     </li>
                 @else
-                    <li class="account-container"><a href="">{{ Auth::user()->name }} <span class="caret"></a>
+                    <li class="account-container"><a class="account-anchor">{{ Auth::user()->name }} <span class="caret"></a>
                         <ul class="account">
                             <li><a href="{{ route('logout') }}" onclick="event.preventDefault();
                                 document.getElementById('logout-form').submit();">
