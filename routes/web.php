@@ -10,6 +10,9 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+  Route::get('google8618acacc2bdd30e.html', function() {
+    return view('google8618acacc2bdd30e.html');
+  });
 
   Route::get('/', 'HomeController@index')->name('landing');
 
